@@ -1,0 +1,20 @@
+{
+    "target": "cobblemon:rhydon",
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:protector",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:passho_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "touhou_little_maid:fire_protect_bauble",
+        "percentage": 25
+      }
+    ]
+  }
+}

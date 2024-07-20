@@ -1,0 +1,18 @@
+{
+    "target": "cobblemon:linernel",
+  "drops": {
+    "amount": 2,
+    "entries": [
+         {
+           "item": "minecraft:iron_ingot",
+           "quantityRange": "1-2",
+           "percentage": 50
+         },
+         {
+           "item": "touhou_little_maid:computer",
+           "quantityRange": "1-2",
+           "percentage": 12
+         }
+      ]
+    }
+  }

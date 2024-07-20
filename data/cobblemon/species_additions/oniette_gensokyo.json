@@ -1,0 +1,420 @@
+{
+    "target": "cobblemon:oniette",
+  "features": [
+       "gensokyian",
+       "mischief",
+       "revenge",
+       "care"
+  ],
+  "forms": [
+    { "name": "Gensokyian",
+     "primaryType": "ghost",
+      "aspects": [
+        "gensokyian"
+      ],
+  "abilities": [
+    "cursedbody",
+    "terrorize",
+    "h:longreach"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 60,
+    "defence": 71,
+    "special_attack": 132,
+    "special_defence": 100,
+    "speed": 92
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "canSwimInWater": true
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      }
+    }
+  },
+  "drops": {
+    "amount": 2,
+    "entries": [
+         {
+           "item": "touhou_little_maid:power_point",
+           "quantityRange": "1-1",
+           "percentage": 50
+         },
+         {
+           "item": "touhou_little_maid:nimble_fabric",
+           "quantityRange": "1-1",
+           "percentage": 10
+         }
+     ]
+  },
+  "moves": [
+    "0:phantomforce",
+    "0:ghastlywail",
+    "0:poltergeist",
+    "0:lifedew",
+    "0:safeguard",
+    "0:fakeout",
+    "0:skittersmack",
+    "15:singsound",
+    "18:assurance",
+    "20:lick",
+    "22:waterpulse",
+    "24:ominouswind",
+    "30:tearfullook",
+    "32:foulplay",
+    "34:hypnosis",
+    "36:hypervoicesound",
+    "38:darkpulse",
+    "40:hex",
+    "42:moonblast",
+    "44:shadowball",
+    "48:uproarsound",
+    "50:curse",
+    "52:grudge",
+    "54:brine",
+    "60:roost",
+    "64:dreameater",
+    "72:destinybond",
+    "80:embargo",
+    "85:healblock",
+    "90:perishsong",
+    "tm:calmmind",
+    "tm:bulkup",
+    "tm:toxic",
+    "tm:sunnyday",
+    "tm:safeguard",
+    "tm:taunt",
+    "tm:shadowball",
+    "tm:fling",
+    "tm:doubleteam"
+      ]
+    },
+    { "name": "Revenge",
+     "primaryType": "ghost",
+  "secondaryType": "dark",
+      "aspects": [
+        "gensokyian",
+        "revenge"
+      ],
+  "abilities": [
+    "cursedbody",
+    "moxie",
+    "h:longreach"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 90,
+    "defence": 71,
+    "special_attack": 102,
+    "special_defence": 100,
+    "speed": 92
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "canSwimInWater": true
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      }
+    }
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+         {
+           "item": "touhou_little_maid:power_point",
+           "quantityRange": "1-1",
+           "percentage": 50
+         },
+         {
+           "item": "touhou_little_maid:nimble_fabric",
+           "quantityRange": "1-1",
+           "percentage": 10
+         },
+         {
+           "item": "touhou_little_maid:shrine",
+           "quantityRange": "1-1",
+           "percentage": 12
+         }
+     ]
+  },
+  "moves": [
+    "0:retaliate",
+    "0:nightslash",
+    "0:poltergeist",
+    "0:lifedew",
+    "0:safeguard",
+    "0:fakeout",
+    "0:skittersmack",
+    "15:singsound",
+    "18:assurance",
+    "20:lick",
+    "22:waterpulse",
+    "24:ominouswind",
+    "30:tearfullook",
+    "32:foulplay",
+    "34:hypnosis",
+    "36:hypervoicesound",
+    "38:darkpulse",
+    "40:hex",
+    "42:moonblast",
+    "44:shadowball",
+    "48:uproarsound",
+    "50:curse",
+    "52:grudge",
+    "54:brine",
+    "60:roost",
+    "64:dreameater",
+    "72:destinybond",
+    "80:embargo",
+    "85:healblock",
+    "90:perishsong",
+    "tm:calmmind",
+    "tm:bulkup",
+    "tm:toxic",
+    "tm:sunnyday",
+    "tm:safeguard",
+    "tm:taunt",
+    "tm:shadowball",
+    "tm:fling",
+    "tm:doubleteam"
+      ]
+    },
+    { "name": "Mischief",
+     "primaryType": "ghost",
+  "secondaryType": "flying",
+      "aspects": [
+        "gensokyian",
+        "mischief"
+      ],
+  "abilities": [
+    "aerilate",
+    "prankster",
+    "h:longreach"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 60,
+    "defence": 71,
+    "special_attack": 102,
+    "special_defence": 100,
+    "speed": 122
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "canSwimInWater": true
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      }
+    }
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+         {
+           "item": "touhou_little_maid:power_point",
+           "quantityRange": "1-1",
+           "percentage": 50
+         },
+         {
+           "item": "touhou_little_maid:nimble_fabric",
+           "quantityRange": "1-1",
+           "percentage": 10
+         },
+         {
+           "item": "touhou_little_maid:gomoku",
+           "quantityRange": "1-1",
+           "percentage": 5
+         }
+     ]
+  },
+  "moves": [
+    "0:fly",
+    "0:tickle",
+    "0:acrobatics",
+    "0:lifedew",
+    "0:safeguard",
+    "0:fakeout",
+    "0:skittersmack",
+    "15:singsound",
+    "18:assurance",
+    "20:lick",
+    "22:waterpulse",
+    "24:ominouswind",
+    "30:tearfullook",
+    "32:foulplay",
+    "34:hypnosis",
+    "36:hypervoicesound",
+    "38:darkpulse",
+    "40:hex",
+    "42:moonblast",
+    "44:shadowball",
+    "48:uproarsound",
+    "50:curse",
+    "52:grudge",
+    "54:brine",
+    "60:roost",
+    "64:dreameater",
+    "72:destinybond",
+    "80:embargo",
+    "85:healblock",
+    "90:perishsong",
+    "tm:calmmind",
+    "tm:bulkup",
+    "tm:toxic",
+    "tm:sunnyday",
+    "tm:safeguard",
+    "tm:taunt",
+    "tm:shadowball",
+    "tm:fling",
+    "tm:doubleteam"
+      ]
+    },
+    { "name": "Caring",
+     "primaryType": "ghost",
+  "secondaryType": "fairy",
+      "aspects": [
+        "gensokyian",
+        "care"
+      ],
+  "abilities": [
+    "friendguard",
+    "parentalbond",
+    "h:longreach"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 70,
+    "defence": 103,
+    "special_attack": 100,
+    "special_defence": 90,
+    "speed": 92
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "canSwimInWater": true
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      }
+    }
+  },
+  "drops": {
+    "amount": 4,
+    "entries": [
+         {
+           "item": "touhou_little_maid:power_point",
+           "quantityRange": "1-2",
+           "percentage": 50
+         },
+         {
+           "item": "touhou_little_maid:nimble_fabric",
+           "quantityRange": "1-1",
+           "percentage": 12
+         },
+         {
+           "item": "touhou_little_maid:shrine",
+           "quantityRange": "1-1",
+           "percentage": 5
+         }
+     ]
+  },
+  "moves": [
+    "0:wideguard",
+    "0:lightscreen",
+    "0:reflect",
+    "0:lifedew",
+    "0:safeguard",
+    "0:fakeout",
+    "0:skittersmack",
+    "15:singsound",
+    "18:assurance",
+    "20:lick",
+    "22:waterpulse",
+    "24:ominouswind",
+    "30:tearfullook",
+    "32:foulplay",
+    "34:hypnosis",
+    "36:hypervoicesound",
+    "38:darkpulse",
+    "40:hex",
+    "42:moonblast",
+    "44:shadowball",
+    "48:uproarsound",
+    "50:curse",
+    "52:grudge",
+    "54:brine",
+    "60:roost",
+    "64:dreameater",
+    "72:destinybond",
+    "80:embargo",
+    "85:healblock",
+    "90:perishsong",
+    "tm:calmmind",
+    "tm:bulkup",
+    "tm:toxic",
+    "tm:sunnyday",
+    "tm:safeguard",
+    "tm:taunt",
+    "tm:shadowball",
+    "tm:fling",
+    "tm:doubleteam"
+      ]
+    }
+  ]
+  }

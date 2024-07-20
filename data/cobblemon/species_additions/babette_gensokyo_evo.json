@@ -1,0 +1,38 @@
+{
+    "target": "cobblemon:babette",
+    "evolutions": [
+    {
+      "id": "babette-kagurette-level_up",
+      "variant": "level_up",
+      "result": "kagurette",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "touhou_little_maid:hakurei_gohei",
+          "amount": ""
+        }
+      ],
+      "requiredContext": ""
+    },
+    {
+      "id": "babette-oniette-gensokyo-revenge-touhou-level_up",
+      "variant": "level_up",
+      "result": "oniette gensokyian=true revenge=true",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "grudge"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "identifier": "minecraft:the_nether",
+          "itemCondition": "touhou_little_maid:film",
+          "amount": ""
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+  }
