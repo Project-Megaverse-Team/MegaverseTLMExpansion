@@ -1,0 +1,6 @@
+{
+  "keys": ["care"],
+  "type": "flag",
+  "isAspect": true,
+  "default": false
+}
