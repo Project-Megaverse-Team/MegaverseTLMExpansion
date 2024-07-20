@@ -1,0 +1,96 @@
+{
+ "head": "head",
+   "portraitScale": 1.5,
+   "portraitTranslation": [0, 1.75, 0],
+   "profileScale": .5,
+   "profileTranslation": [0, 1, 0],
+  "faint": "bedrock(kagurette, faint)",
+  "cry": "bedrock(kagurette, cry)",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "look",
+        "bedrock(kagurette, ground_idle)"
+      ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(kagurette, blink)"]
+       }
+     ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK" ],
+      "animations": [ "look", "bedrock(kagurette, ground_walk)" ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(kagurette, blink)"]
+       }
+     ]
+    },
+    "fly": {
+      "poseName": "fly",
+      "transformTicks": 10,
+      "poseTypes": [ "FLY" ],
+      "animations": [ "look", "bedrock(kagurette, air_fly)" ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(kagurette, blink)"]
+       }
+     ]
+    },
+    "hover": {
+      "poseName": "hover",
+      "transformTicks": 10,
+      "poseTypes": [ "HOVER" ],
+      "animations": [ "look", "bedrock(kagurette, air_idle)" ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(kagurette, blink)"]
+       }
+     ]
+    },
+    "floating": {
+      "poseName": "floating",
+      "transformTicks": 10,
+      "poseTypes": [ "FLOAT" ],
+      "animations": [ "look", "bedrock(kagurette, air_idle)" ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(kagurette, blink)"]
+       }
+     ]
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "transformTicks": 10,
+      "poseTypes": [ "SWIM" ],
+      "animations": [ "look", "bedrock(kagurette, air_fly)" ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(kagurette, blink)"]
+       }
+     ]
+    },
+   "sleeping": {
+     "poseName": "sleeping",
+     "transformTicks": 10,
+     "poseTypes": [
+       "SLEEP"
+     ],
+     "animations": [
+       "bedrock(kagurette, sleep)"
+     ]
+   }
+  }
+}

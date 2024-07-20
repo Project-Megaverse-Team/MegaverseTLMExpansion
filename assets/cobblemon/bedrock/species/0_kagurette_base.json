@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:kagurette",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:kagurette",
+      "model": "cobblemon:kagurette.geo",
+      "texture": "cobblemon:textures/pokemon/kagurette/kagurette.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kagurette/kagurette_shiny.png"
+    }
+  ]
+}
