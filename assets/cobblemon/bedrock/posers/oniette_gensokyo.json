@@ -1,0 +1,56 @@
+{
+ "head": "head",
+ "portraitScale": 1.8,
+ "portraitTranslation": [ 0, 0, 0 ],
+ "profileScale": 0.85,
+ "profileTranslation": [ 0, 0.55, 0 ],
+  "faint": "bedrock(oniette_gensokyo, faint)",
+  "cry": "bedrock(oniette_gensokyo, cry)",
+  "poses": {
+     "battle-idle": {
+       "poseName": "battle-idle",
+       "transformTicks": 10,
+       "poseTypes": [ "STAND", "HOVER", "FLOAT" ],
+       "isBattle": true,
+       "animations": ["look", "bedrock(oniette_gensokyo, battle_idle)"],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(oniette_gensokyo, blink)"]
+        }
+       ]
+       },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [ "STAND", "HOVER", "FLOAT" ],
+       "isBattle": false,
+      "animations": [
+        "look",
+        "bedrock(oniette_gensokyo, ground_idle)"
+      ]
+    },
+    "profile": {
+      "poseName": "profile",
+      "transformTicks": 10,
+      "poseTypes": [ "NONE", "PORTRAIT", "PROFILE" ],
+       "isBattle": false,
+      "animations": [
+        "look",
+        "bedrock(oniette_gensokyo, ground_idle)"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK", "FLY", "SWIM" ],
+      "animations": [ "bedrock(oniette_gensokyo, ground_walk)" ]
+    },
+   "sleeping": {
+     "poseName": "sleeping",
+     "transformTicks": 10,
+     "poseTypes": [ "SLEEP" ],
+     "animations": [ "bedrock(oniette_gensokyo, sleep)" ]
+     }
+   }
+}
