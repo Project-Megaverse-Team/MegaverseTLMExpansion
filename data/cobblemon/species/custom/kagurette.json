@@ -112,8 +112,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.kagurette.desc1",
-    "cobblemon.species.kagurette.desc2"
+    "cobblemon.species.kagurette.desc"
   ],
   "baseScale": 0.7,
   "hitbox": {
