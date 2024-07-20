@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:kamieau",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:kamieau",
+      "model": "cobblemon:kamieau.geo",
+      "texture": "cobblemon:textures/pokemon/kamieau/kamieau.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kamieau/kamieau_shiny.png"
+    }
+  ]
+}
