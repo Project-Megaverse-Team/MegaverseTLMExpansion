@@ -1,0 +1,76 @@
+{
+  "species": "cobblemon:oniette",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "gensokyian"
+      ],
+      "poser": "cobblemon:oniette_gensokyo",
+      "model": "cobblemon:oniette_gensokyo.geo",
+      "texture": "cobblemon:textures/pokemon/oniette/oniette_gensokyo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "gensokyian",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/oniette/oniette_gensokyo_shiny.png"
+    },
+    {
+      "aspects": [
+        "gensokyian",
+        "revenge"
+      ],
+      "poser": "cobblemon:oniette_gensokyo",
+      "model": "cobblemon:oniette_gensokyo.geo",
+      "texture": "cobblemon:textures/pokemon/oniette/oniette_gensokyo_revenge.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "gensokyian",
+        "revenge",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/oniette/oniette_gensokyo_revenge_shiny.png"
+    },
+    {
+      "aspects": [
+        "gensokyian",
+        "mischief"
+      ],
+      "poser": "cobblemon:oniette_gensokyo",
+      "model": "cobblemon:oniette_gensokyo.geo",
+      "texture": "cobblemon:textures/pokemon/oniette/oniette_gensokyo_mischief.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "gensokyian",
+        "mischief",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/oniette/oniette_gensokyo_mischief_shiny.png"
+    },
+    {
+      "aspects": [
+        "gensokyian",
+        "care"
+      ],
+      "poser": "cobblemon:oniette_gensokyo_care",
+      "model": "cobblemon:oniette_gensokyo_care.geo",
+      "texture": "cobblemon:textures/pokemon/oniette/oniette_gensokyo_care.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "gensokyian",
+        "care",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/oniette/oniette_gensokyo_care_shiny.png"
+    }
+  ]
+}
